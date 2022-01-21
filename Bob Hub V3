@@ -19,6 +19,9 @@ local VapeV4 = Instance.new("TextButton")
 local Ciaz = Instance.new("TextButton")
 local SwordReach = Instance.new("TextButton")
 local DarkHub = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local openmenu = Instance.new("Frame")
+local open = Instance.new("TextButton")
 
 --Properties:
 
@@ -29,16 +32,17 @@ main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 main.BorderColor3 = Color3.fromRGB(27, 42, 53)
 main.BorderSizePixel = 0
-main.Position = UDim2.new(0.0489021949, 0, 0.101789705, 0)
+main.Position = UDim2.new(0.303139478, 0, 0.0995525718, 0)
 main.Size = UDim2.new(0, 327, 0, 212)
+main.Visible = false
 main.Active = true
-main.Darggable = true
+main.Draggable = true
 
 Pattern.Name = "Pattern"
 Pattern.Parent = main
 Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pattern.BackgroundTransparency = 1.000
-Pattern.Position = UDim2.new(-0.00152905472, 0, 0, 0)
+Pattern.Position = UDim2.new(-0.00458715856, 0, 0, 0)
 Pattern.Size = UDim2.new(0, 327, 0, 212)
 Pattern.ZIndex = 9
 Pattern.Image = "rbxassetid://2151741365"
@@ -242,4 +246,44 @@ DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 DarkHub.TextSize = 14.000
 DarkHub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(188, 0, 3)
+close.Position = UDim2.new(0.886850178, 0, 0, 0)
+close.Size = UDim2.new(0, 36, 0, 34)
+close.Font = Enum.Font.GothamBlack
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+main.Visible  = false
+openmenu.Visible = true
+end)
+
+openmenu.Name = "openmenu"
+openmenu.Parent = ScreenGui
+openmenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmenu.Position = UDim2.new(0.0208604969, 0, 0.395973086, 0)
+openmenu.Size = UDim2.new(0, 100, 0, 25)
+openmenu.Active = true
+openmenu.Draggable = true
+
+open.Name = "open"
+open.Parent = openmenu
+open.BackgroundColor3 = Color3.fromRGB(218, 53, 105)
+open.Position = UDim2.new(1.49011612e-08, 0, 0, 0)
+open.Size = UDim2.new(0, 100, 0, 25)
+open.Font = Enum.Font.SourceSans
+open.Text = "OPEN"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextScaled = true
+open.TextSize = 14.000
+open.TextWrapped = true
+open.MouseButton1Down:connect(function()
+openmenu.Visible = false
+main.Visible = true
 end)

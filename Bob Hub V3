@@ -1,0 +1,241 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Pattern = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local line = Instance.new("TextLabel")
+local DrPoppa = Instance.new("TextButton")
+local DomainX = Instance.new("TextButton")
+local NTOAdmin = Instance.new("TextButton")
+local RemX = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Dahoodiansaimlock = Instance.new("TextButton")
+local Bloxfruit = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local GPO = Instance.new("TextButton")
+local PetSimX = Instance.new("TextButton")
+local VapeV4 = Instance.new("TextButton")
+local Ciaz = Instance.new("TextButton")
+local SwordReach = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.0489021949, 0, 0.101789705, 0)
+main.Size = UDim2.new(0, 327, 0, 212)
+
+Pattern.Name = "Pattern"
+Pattern.Parent = main
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Position = UDim2.new(-0.00152905472, 0, 0, 0)
+Pattern.Size = UDim2.new(0, 327, 0, 212)
+Pattern.ZIndex = 9
+Pattern.Image = "rbxassetid://2151741365"
+Pattern.ImageTransparency = 0.600
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 250, 0, 250)
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 327, 0, 34)
+Title.Font = Enum.Font.Kalam
+Title.Text = "Bob Hub"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 41.000
+
+line.Name = "line"
+line.Parent = main
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BackgroundTransparency = 1.000
+line.Position = UDim2.new(-0.43540743, 0, -0.0872642323, 0)
+line.Size = UDim2.new(0, 611, 0, 95)
+line.Font = Enum.Font.SourceSans
+line.Text = "____________________________________________________"
+line.TextColor3 = Color3.fromRGB(0, 0, 0)
+line.TextSize = 14.000
+
+DrPoppa.Name = "DrPoppa"
+DrPoppa.Parent = main
+DrPoppa.BackgroundColor3 = Color3.fromRGB(135, 66, 132)
+DrPoppa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DrPoppa.Position = UDim2.new(0.0305811092, 0, 0.233490527, 0)
+DrPoppa.Size = UDim2.new(0, 68, 0, 33)
+DrPoppa.Font = Enum.Font.SourceSans
+DrPoppa.Text = "DrPoppa"
+DrPoppa.TextColor3 = Color3.fromRGB(0, 0, 0)
+DrPoppa.TextSize = 14.000
+DrPoppa.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/war4jay/DrPoppaV3/main/DrPoppaV3'),true))()
+end)
+
+DomainX.Name = "DomainX"
+DomainX.Parent = main
+DomainX.BackgroundColor3 = Color3.fromRGB(150, 62, 119)
+DomainX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DomainX.Position = UDim2.new(0.281345785, 0, 0.233490527, 0)
+DomainX.Size = UDim2.new(0, 68, 0, 33)
+DomainX.Font = Enum.Font.SourceSans
+DomainX.Text = "DomainX"
+DomainX.TextColor3 = Color3.fromRGB(0, 0, 0)
+DomainX.TextSize = 14.000
+DomainX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
+end)
+
+NTOAdmin.Name = "NTO Admin"
+NTOAdmin.Parent = main
+NTOAdmin.BackgroundColor3 = Color3.fromRGB(175, 57, 116)
+NTOAdmin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NTOAdmin.Position = UDim2.new(0.525994003, 0, 0.233490527, 0)
+NTOAdmin.Size = UDim2.new(0, 68, 0, 33)
+NTOAdmin.Font = Enum.Font.SourceSans
+NTOAdmin.Text = "NTO Admin"
+NTOAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+NTOAdmin.TextSize = 14.000
+NTOAdmin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+RemX.Name = "RemX"
+RemX.Parent = main
+RemX.BackgroundColor3 = Color3.fromRGB(188, 48, 107)
+RemX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RemX.Position = UDim2.new(0.767584264, 0, 0.233490527, 0)
+RemX.Size = UDim2.new(0, 68, 0, 33)
+RemX.Font = Enum.Font.SourceSans
+RemX.Text = "RemX"
+RemX.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemX.TextSize = 14.000
+RemX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
+end)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(102, 45, 113)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(197, 66, 110))}
+UIGradient.Parent = main
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = main
+
+Dahoodiansaimlock.Name = "Dahoodians aimlock"
+Dahoodiansaimlock.Parent = main
+Dahoodiansaimlock.BackgroundColor3 = Color3.fromRGB(135, 66, 132)
+Dahoodiansaimlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dahoodiansaimlock.Position = UDim2.new(0.0305809975, 0, 0.422169775, 0)
+Dahoodiansaimlock.Size = UDim2.new(0, 68, 0, 33)
+Dahoodiansaimlock.Font = Enum.Font.SourceSans
+Dahoodiansaimlock.Text = "Dahood"
+Dahoodiansaimlock.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dahoodiansaimlock.TextSize = 14.000
+Dahoodiansaimlock.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/crypthook/some-shit-script-crack/main/boxware"))()
+end)
+
+Bloxfruit.Name = "Blox fruit"
+Bloxfruit.Parent = main
+Bloxfruit.BackgroundColor3 = Color3.fromRGB(150, 62, 119)
+Bloxfruit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Bloxfruit.Position = UDim2.new(0.281345785, 0, 0.422169805, 0)
+Bloxfruit.Size = UDim2.new(0, 68, 0, 33)
+Bloxfruit.Font = Enum.Font.SourceSans
+Bloxfruit.Text = "Blox fruit"
+Bloxfruit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bloxfruit.TextSize = 14.000
+Bloxfruit.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = main
+DarkHub.BackgroundColor3 = Color3.fromRGB(188, 48, 107)
+DarkHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.Position = UDim2.new(0.767584324, 0, 0.610849082, 0)
+DarkHub.Size = UDim2.new(0, 68, 0, 32)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextSize = 14.000
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+GPO.Name = "GPO"
+GPO.Parent = main
+GPO.BackgroundColor3 = Color3.fromRGB(175, 57, 116)
+GPO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GPO.Position = UDim2.new(0.525994003, 0, 0.422169805, 0)
+GPO.Size = UDim2.new(0, 68, 0, 33)
+GPO.Font = Enum.Font.SourceSans
+GPO.Text = "GPO Fruit Esp"
+GPO.TextColor3 = Color3.fromRGB(0, 0, 0)
+GPO.TextSize = 14.000
+GPO.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+end)
+
+PetSimX.Name = "Pet Sim X"
+PetSimX.Parent = main
+PetSimX.BackgroundColor3 = Color3.fromRGB(188, 48, 107)
+PetSimX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PetSimX.Position = UDim2.new(0.767584324, 0, 0.422169805, 0)
+PetSimX.Size = UDim2.new(0, 68, 0, 33)
+PetSimX.Font = Enum.Font.SourceSans
+PetSimX.Text = "Pet Sim X"
+PetSimX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimX.TextSize = 14.000
+PetSimX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+end)
+
+VapeV4.Name = "Vape V4"
+VapeV4.Parent = main
+VapeV4.BackgroundColor3 = Color3.fromRGB(135, 66, 132)
+VapeV4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VapeV4.Position = UDim2.new(0.0305809937, 0, 0.610849082, 0)
+VapeV4.Size = UDim2.new(0, 68, 0, 32)
+VapeV4.Font = Enum.Font.SourceSans
+VapeV4.Text = "Vape V4"
+VapeV4.TextColor3 = Color3.fromRGB(0, 0, 0)
+VapeV4.TextSize = 14.000
+VapeV4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Ciaz.Name = "Ciaz"
+Ciaz.Parent = main
+Ciaz.BackgroundColor3 = Color3.fromRGB(150, 62, 119)
+Ciaz.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Ciaz.Position = UDim2.new(0.281345785, 0, 0.610849082, 0)
+Ciaz.Size = UDim2.new(0, 68, 0, 32)
+Ciaz.Font = Enum.Font.SourceSans
+Ciaz.Text = "Ciaz"
+Ciaz.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ciaz.TextSize = 14.000
+Ciaz.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/war4jay/test/main/%3Doiht8gyv%20goy8', true))()
+end)
+
+SwordReach.Name = "Sword Reach"
+SwordReach.Parent = main
+SwordReach.BackgroundColor3 = Color3.fromRGB(175, 57, 116)
+SwordReach.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SwordReach.Position = UDim2.new(0.525994003, 0, 0.610849082, 0)
+SwordReach.Size = UDim2.new(0, 68, 0, 32)
+SwordReach.Font = Enum.Font.SourceSans
+SwordReach.Text = "Sword Reach"
+SwordReach.TextColor3 = Color3.fromRGB(0, 0, 0)
+SwordReach.TextSize = 14.000
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/war4jay/test/main/fdsjfisdfo"))()
+end)

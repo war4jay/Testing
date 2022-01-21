@@ -13,12 +13,12 @@ local UIGradient = Instance.new("UIGradient")
 local UICorner = Instance.new("UICorner")
 local Dahoodiansaimlock = Instance.new("TextButton")
 local Bloxfruit = Instance.new("TextButton")
-local DarkHub = Instance.new("TextButton")
 local GPO = Instance.new("TextButton")
 local PetSimX = Instance.new("TextButton")
 local VapeV4 = Instance.new("TextButton")
 local Ciaz = Instance.new("TextButton")
 local SwordReach = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
 
 --Properties:
 
@@ -31,6 +31,8 @@ main.BorderColor3 = Color3.fromRGB(27, 42, 53)
 main.BorderSizePixel = 0
 main.Position = UDim2.new(0.0489021949, 0, 0.101789705, 0)
 main.Size = UDim2.new(0, 327, 0, 212)
+main.Active = true
+main.Darggable = true
 
 Pattern.Name = "Pattern"
 Pattern.Parent = main
@@ -158,19 +160,6 @@ Bloxfruit.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
-DarkHub.Name = "DarkHub"
-DarkHub.Parent = main
-DarkHub.BackgroundColor3 = Color3.fromRGB(188, 48, 107)
-DarkHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
-DarkHub.Position = UDim2.new(0.767584324, 0, 0.610849082, 0)
-DarkHub.Size = UDim2.new(0, 68, 0, 32)
-DarkHub.Font = Enum.Font.SourceSans
-DarkHub.Text = "DarkHub"
-DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
-DarkHub.TextSize = 14.000
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-end)
-
 GPO.Name = "GPO"
 GPO.Parent = main
 GPO.BackgroundColor3 = Color3.fromRGB(175, 57, 116)
@@ -237,5 +226,20 @@ SwordReach.Font = Enum.Font.SourceSans
 SwordReach.Text = "Sword Reach"
 SwordReach.TextColor3 = Color3.fromRGB(0, 0, 0)
 SwordReach.TextSize = 14.000
+SwordReach.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/war4jay/test/main/fdsjfisdfo"))()
+end)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = main
+DarkHub.BackgroundColor3 = Color3.fromRGB(188, 48, 107)
+DarkHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.Position = UDim2.new(0.767584324, 0, 0.610849082, 0)
+DarkHub.Size = UDim2.new(0, 68, 0, 32)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextSize = 14.000
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
